@@ -1,0 +1,76 @@
+* {
+    color: #EEEEEE;
+    font-family: "Montserrat";
+    text-decoration: none;
+}
+
+html {
+    background-color: #0A051D;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#container {
+    margin-top: 2rem;
+    width: 780px;
+    display: flex;
+    justify-content: space-between;
+}
+#info {
+    display: flex;
+    flex-direction: column;
+}
+
+#info > * {
+    margin-bottom: 1rem;
+}
+
+#month-title {
+    font-family: "MotoyaLCedar W3 mono";
+}
+
+#calendar-container {
+    width: 224px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.calendar-day {
+    width: 24px;
+    height: 24px;
+    background-color: #EEEEEE;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+#journal-container {
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+}
+
+.entry-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.entry-date {
+    font-family: "MotoyaLCedar W3 mono";
+    padding: 0.5rem 1rem;
+    background-color: #552F8F;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.entry-text {
+    font-family: "MotoyaLCedar W3 mono";
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+}
